@@ -1,0 +1,148 @@
+
+.navbar{
+    height: 60px;
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: white;
+    filter: opacity(1);
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position:fixed;
+    top:0;
+    z-index: 1000;
+    /* transition: top 0.3s ease-in-out; */
+    
+
+}
+.nav-elements{
+    margin-left: 50px;
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: center;
+    /* gap:50px; */
+    /* width: 100vh; */
+}
+
+.element{
+
+    color: #003E37;
+    margin-left: 50px;
+    margin-right: 20px;
+    cursor: pointer;
+    transition: 0.2s ease-in-out;
+    &:hover{
+        color: rgb(185, 75, 185);
+    }
+    /* padding-left: 20px; */
+}
+
+.element a{
+    color: #003E37;
+    text-decoration: none;
+    transition: 0.4s all cubic-bezier(.5,0,.5,1);
+    &:hover{
+        color: rgb(185, 75, 185);
+    }
+}
+
+/* .element p{
+    width:max-content;
+} */
+.logo{
+    margin-right: 180px;
+    margin-left: 50px;
+}
+.logo-icon{
+    width: 100px;
+    height: 100px;
+    /* z-index: 1000; */
+    color: #003E37;
+    background-size: cover;
+    background-position: center;
+    &:hover{
+        cursor: pointer;
+    }
+}
+
+.search{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid black;
+    margin: 5px;
+    margin-right: 100px;
+}
+.input-search{
+    text-align: center;
+    margin-bottom: 5px;
+    background-color:white;
+    color: rgb(0, 0, 0);
+    border:none;
+    &:focus{
+        outline: none;
+    }
+}
+/* textarea:focus, input:focus{
+    outline: none;
+} */
+
+
+.search-icon{
+    width: 20px;
+    height: 20px;
+    margin-bottom: 5px;
+    color: #003E37;
+}
+.scroll-nav{
+    height:60px;
+    background-color:  #c8e302;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+    width: 100%;
+    font-size: 20px;
+    margin-top:60px;
+    
+}
+
+.scroll-nav marquee{
+    color: #003e37;
+    -webkit-font-smoothing: antialiased;
+    text-decoration: none;
+    transition: opacity .25s linear;
+    line-height: 60px;
+    display: inline-block;
+    pointer-events: none;
+}
+
+.marquee {
+    user-select: none;
+    width: 100%;
+    overflow: hidden;
+    white-space: nowrap;
+    box-sizing: border-box;
+}
+
+.marquee p {
+    display: inline-block;
+    padding-left: 100%;
+    animation: marquee 20s linear infinite;
+    &:hover{
+        animation-play-state: paused;
+
+    }
+}
+
+
+@keyframes marquee {
+    from {
+        transform: translate(0, 0);
+    }
+    to {
+        transform: translate(-100%, 0);
+    }
+}

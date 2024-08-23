@@ -1,0 +1,64 @@
+{
+    "products": [
+        {
+            "src": "https://placehold.co/1000X1000",
+            "alt": "Image 1 for Product",
+            "title": "Product 1"
+        },
+        {
+            "src": "https://placehold.co/1000X1000",
+            "alt": "Image 2 for Product",
+            "title": "Image 2"
+        },
+        {
+            "src": "https://placehold.co/1000X1000",
+            "alt": "Image 3 for Product",
+            "title": "Image 3"
+        },
+        {
+            "src": "https://placehold.co/1000X1000",
+            "alt": "Image 4 for Product",
+            "title": "Image 4"
+        },
+        {
+            "src": "https://placehold.co/1000X1000",
+            "alt": "Image 5 for Product",
+            "title": "Image 5"
+        },
+        {
+            "src": "https://placehold.co/1000X1000",
+            "alt": "Image 6 for Product",
+            "title": "Image 6"
+        },
+        {
+            "src": "https://placehold.co/1000X1000",
+            "alt": "Image 7 for Product",
+            "title": "Image 7"
+        },
+        {
+            "src": "https://placehold.co/1000X1000",
+            "alt": "Image 8 for Product",
+            "title": "Image 8"
+        },
+        {
+            "src": "https://placehold.co/1000X1000",
+            "alt": "Image 9 for Product",
+            "title": "Image 9"
+        },
+        {
+            "src": "https://placehold.co/1000X1000",
+            "alt": "Image 10 for Product",
+            "title": "Image 10"
+        },
+        {
+            "src": "https://placehold.co/1000X1000",
+            "alt": "Image 11 for Product",
+            "title": "Image 11"
+        },
+        {
+            "src": "https://placehold.co/1000X1000",
+            "alt": "Image 12 for Product",
+            "title": "Image 12"
+        }
+    ]
+}

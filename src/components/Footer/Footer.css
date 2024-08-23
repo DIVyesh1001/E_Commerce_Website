@@ -1,0 +1,102 @@
+footer{
+    height: 400px;
+    background-color: #003E37;
+    
+}
+.input-footer{
+    display: flex;
+    justify-content: space-between;
+}
+
+.panel1{
+    display: flex;
+    background-color: #003E37;
+    color: white;
+    font-size: 1 rem;
+}
+ul{
+    margin-top:60px;
+    margin-left:90px;
+
+}
+ul a{
+    text-decoration: none;
+    color: white;
+}
+ul p{
+    font-size: 0.85rem;
+    margin-top: 17px;
+    cursor: pointer;
+    transition: 0.4s all cubic-bezier(.5,0,.5,1)
+   
+
+} 
+.contact{
+    border-bottom: 2px solid yellow;
+}
+ul p:hover{
+    color: #d670f6;
+}
+.panel2{
+    margin-top: 60px;
+    color: white;
+    margin-right: 180px;
+    font-size: 0.85rem;
+}
+.mail{
+    width: 280px;
+    border: none;
+    padding: 10px;
+    color: white;
+    &:focus{
+        outline: none;
+    }
+    background-color: #003E37;
+    border-bottom: 2px solid white;
+
+}
+.panel2 p{
+    margin-bottom: 20px;
+}
+
+.panel3{
+    color: #009787;
+    width:28%;
+    font-size: 0.7rem;
+}
+.page1{
+    display: flex;
+    justify-content: space-between;
+    /* width: 33%; */
+}
+.page2{
+    display: flex;
+    margin-top: 5px;
+    justify-content: space-between;
+    /* width: 33%; */
+    
+}
+.panel3{
+    margin-top: 40px;
+    margin-left: 200px;
+
+}
+
+.panel{
+    display: flex;
+    margin-top: 30px;
+}
+.foot-lastpannel{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    width: 40vh;
+    color: white;
+    margin-left:400px;
+    margin-top: 80px;
+
+
+}
+.foot-lastpannel p{
+    border-bottom: 2px solid yellow;
+}

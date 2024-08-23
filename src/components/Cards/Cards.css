@@ -1,0 +1,68 @@
+.card{
+    cursor: pointer;
+    width:27vw;
+    height:27vw;
+
+}
+
+
+.card:hover .card-img{
+    
+    transform: scale(106%);
+}
+
+.card:hover .card-text{
+    color:hsl(285.67,88.16%,70.2%);
+    text-decoration: underline hsl(285.67,88.16%,70.2%);
+}
+
+.card-img-container {
+    width: calc(100% + 2px);
+    height: calc(100% + 2px);
+    /* border-radius: 1.2rem; */
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    position: relative;
+    overflow: hidden;
+    border-radius: 1.5rem;
+    transition: 0.4s all cubic-bezier(.5,0,.5,1);
+    
+}
+
+.card-img-container:after{
+    content: "";
+    display: block;
+    position: absolute;
+    top: -1px;
+    left: -1px;
+    width: calc(100% + 2px);
+    height: calc(100% + 2px);
+    /* background-color: antiquewhite; */
+    background-image: url(./collection-overlay1.png);
+
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.card-img {
+    /* height: 50vh; */
+    width: 50vh;
+    transition: .4s transform cubic-bezier(.5,0,.5,1);
+}
+.card-text{
+    padding: 20px 0px;
+    text-align: center;
+    margin: 0.5rem 5%;
+    font-size: 1.3rem;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 14px;
+    letter-spacing: .155em;
+    transition: .4s all cubic-bezier(.5,0,.5,1);
+    text-decoration: underline limegreen;
+    text-underline-offset: 6px;
+    
+}

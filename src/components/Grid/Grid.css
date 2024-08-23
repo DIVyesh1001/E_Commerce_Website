@@ -1,0 +1,22 @@
+.grid-container{
+padding-top: 6.666%;
+/* height: 100vh;; */
+padding-bottom: 6.666%;
+}
+
+.grid-container p{
+    padding: 0 6.666%;
+    font-size: 28px;
+    margin-bottom: 1em;
+    letter-spacing: 4px;
+}
+
+
+.grid{
+padding: 0px 6.666%;
+/* width: max-content; */
+display: flex;
+justify-content: space-between;
+flex-wrap: nowrap;
+
+}

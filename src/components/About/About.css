@@ -1,0 +1,144 @@
+.aboutus{
+    width: 100%;
+    height: 60vh;
+    text-align: center;
+}
+
+.image{
+    background-image: url(./aboutimage.jpg);
+    font-family: 'Times New Roman', Times, serif;
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #003e37;
+    font-size: 30px;
+    font-weight: bold;
+    
+}
+
+.image h1{
+    font-size: 5.15vw;
+    margin-bottom: .25em;
+    padding: 20px 0px;
+    text-align: center;
+    margin: 1rem 5%;
+    /* font-size: 2rem; */
+    /* text-transform: uppercase; */
+    /* font-weight: bold; */
+    font-style: normal;
+    font-stretch: normal;
+    /* line-height: 20px; */
+    /* letter-spacing: .155em; */
+    display: block;
+    /* font-size: 1.5em; */
+    filter: drop-shadow(0px 0px 2px #c8e302);
+    filter: drop-shadow(0px 0px 2px limegreen);
+}
+
+.text{
+    /* width: 100%; */
+    /* height: 40vh; */
+    margin: 60px 6.66%;
+    
+}
+.main_text{
+    width: 100%;
+    height: 100%;
+    color: #003e37;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    filter: drop-shadow(0px 0px 2px limegreen);
+    font-size: 2rem;
+    font-family: cursive;
+}
+
+.community_impact{
+    width: 100%;
+    /* height: 40vh; */
+    background-image: url(./background.jpg);
+    background-size: contain;
+    background-position: center;
+    margin: 10rem 0;
+
+}
+.main_impact{
+    width: 100%;
+    height: 100%;
+    color: #003e37;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    text-align: center;
+
+}
+.boxes{
+    /* margin: 2rem 20.666%; */
+    display: flex;
+    justify-content: space-around;
+    /* width: 50%; */
+    align-items: center;
+    /* margin-left: 400px;
+    margin-right: 400px;
+    margin-top: 50px;
+    margin-bottom: 20px; */
+
+    
+
+}
+
+
+.box{
+    color: #003e37;
+    text-align: center;
+}
+.box h1{
+    font-weight: bold ;
+    font-size: 4rem;
+}
+.box p{
+    margin-top: 10px;
+    font-size: 1.5rem;
+}
+.Believe{
+    width: 100%;
+    margin: 10rem 0;
+}
+.what_believe{
+    width: 100%;
+    height: 100%;
+    color: #003e37;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    text-align: center;
+    /* margin-top: rem; */
+    margin-bottom:5rem;
+
+}
+.pannels{
+     display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+
+.Pannel1{
+    color: #003e37;
+    text-align: center;
+}
+.Pannel1 h1{
+    font-weight: bold ;
+    font-size: 4rem;
+}
+.Pannel1 p{
+    margin-top: 10px;
+    font-size: 1.5rem;
+
+}
